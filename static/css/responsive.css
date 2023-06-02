@@ -1,0 +1,1344 @@
+/*-------------------------------------------
+    22. Responsive Design CSS
+-------------------------------------------*/
+
+/*=====================================
+    Extra Large Screen
+========================================*/
+
+@media only screen and (min-width: 1920px){
+}
+
+/*=====================================
+  For Large Screen
+========================================*/
+
+/*------Max 1200px Width Screen------*/
+
+@media only screen and (max-width: 1800px) { 
+  .p-l-r-230 {
+    padding-left: 130px;
+    padding-right: 130px;
+  }
+}
+@media only screen and (max-width: 1775px) {
+
+}
+@media only screen and (max-width: 1600px) {
+  .p-l-r-230 {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  /* Blog css */
+  .blog-items-wrap, .vacancies-wrap {
+    padding: 70px 0;
+  }
+
+}
+
+/*--------Max 1680px Width Screen---------*/
+@media only screen and (max-width: 1448px) {
+  .key-information .key-info-btn {
+    padding: 16px 21px;
+}
+}
+@media only screen and (max-width: 1400px) {
+  .p-t-b-100 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  /* Splitshow css */
+  .zai-splitshow-preview {
+    /* padding-bottom: 133.593%; */
+  }
+  /* Footer css */
+  .footer-upper-content {
+    padding-top: 180px;
+    padding-bottom: 90px;
+  }
+
+}
+
+@media only screen and (max-width: 1440px) {
+  .hero-area .heading-1, .heading-1 {
+    font-size: 75px;
+  }
+  .zai-splitshow-preview.-sm {
+    /* padding-bottom: 80% !important; */
+  }
+
+  /* Video Area css start */
+  .video-area .popup-video {
+    width: 100px;
+    height: 100px;
+  }
+  .video-area .popup-video i {
+    font-size: 28px;
+  }
+  /* Video Area css end */
+  .key-information .key-info-btn span {
+    margin-right: 36px;
+}
+.key-information .key-info-btn {
+  padding: 16px 11px;
+  display: flex;
+  justify-content: center;
+}
+.projects-list-item .projects-box-wrap .projects-list-left-content {
+  margin: 60px 0;
+}
+.projects-item-title-img img {
+  height: 40px;
+}
+.projects-list-item .projects-box-wrap .projects-list-left-content .btn-lists {
+  /* margin-bottom: 50px; */
+}
+.projects-box-right-img img {
+  height: 480px;
+}
+.projects-list-item .projects-box-wrap .projects-list-left-content .btn-lists a {
+  padding: 11px 28px;
+  font-size: 18px;
+  margin-right: 10px;
+}
+.projects-list-item .projects-box-wrap .projects-list-left-content .project-features ul li {
+  font-size: 18px;
+}
+.know-us-more-area .owl-nav {
+  right: 42px;
+}
+
+}
+
+@media only screen and (max-width: 1399px) {
+  .header-right.text-right {
+    width: 21%;
+  }
+  .heading-2 {
+    font-size: 48px;
+  }
+
+  /* Splitshow area */
+  .zai-splitshow-preview {
+    /* padding-bottom: 133.593%; */
+  }
+  .zai-splitshow-item {
+    margin: 13px 13px;
+  }
+  /* stratigies-box */
+  .stratigies-box .stratigies-box-title {
+    font-size: 20px;
+  }
+  .we-collaborate-to-make-area .collaborate-logos-right .html-icon {
+    right: 89%;
+    top: 33%;
+  }
+
+  /* About page */
+  .member-box img {
+    width: 100%;
+  }
+
+}
+
+/*--------Max 1366px Width Screen---------*/
+@media only screen and (min-width: 768px) and (max-width: 1366px){
+  .project-details-img-wrap.inner-page-negative-t-m {
+    margin-top: -155px!important;
+  }
+}
+@media only screen and (max-width: 1366px) {
+
+  /*Default for Max 1366px Width Devices*/
+  body {
+      font-size: 14px;
+  }
+  .page-banner-area {
+    height: 700px;
+  }
+  .inner-page-negative-t-m {
+    margin-top: -200px!important;
+  }
+  .theme-button {
+      font-size: 16px;
+  }
+
+  /* Hero Area CSS  */
+  .hero-area .heading-1, .heading-1 {
+    font-size: 75px;
+  }
+  .theme-button-3 {
+    padding: 16px 21px 16px 23px;
+  }
+  /* Hero Area CSS End  */
+
+  /* Service css */
+  .service-box img {
+    height: 90px;
+  }
+  .service-box h4.service-title {
+    font-size: 24px;
+    padding: 30px 0 20px;
+  }
+
+  /* Blog CSS */
+  .p-l-r-230 {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  /* Career css */
+  .job-item .job-title {
+    font-size: 22px;
+  }
+  .job-item .job-bottom-part .theme-button-3 {
+    padding: 9px 22px;
+    font-size: 15px;
+  }
+
+  /* technology we use */
+  .we-collaborate-to-make-area .collaborate-logos-right .html-icon {
+    right: 69%;
+    top: 38%;
+}
+  .project-details-img-wrap.inner-page-negative-t-m {
+    /* margin-top: -155px; */
+  }
+  .project-details-title {
+    font-size: 34px;
+    line-height: 40px;
+}
+
+}
+
+/*--------Max 1200px Width Screen---------*/
+
+@media only screen and (max-width: 1200px) {
+  .p-l-r-230 {
+    padding-left: 130px;
+    padding-right: 130px;
+  }
+  section, .section-b-space {
+    padding-bottom: 90px!important;
+  }
+  .section-t-space {
+    padding-top: 90px!important;
+  }
+  section.section-b-130-space {
+    padding-bottom: 60px!important;
+  }
+  .section-t-130-space {
+    padding-top: 60px!important;
+  }
+  .heading-2 {
+    font-size: 44px;
+    letter-spacing: 0px;
+    line-height: 53px;
+  }
+
+  /* Splitshow css */
+  .zai-splitshow-preview {
+    /* padding-bottom: 128.593%; */
+  }
+  .zai-splitshow-item {
+    margin: 28px 13px;
+  }
+  /* Footer css */
+  .footer-upper-content p {
+    font-size: 20px;
+  }
+
+  /* Blog CSS */
+  .blog-items-wrap, .vacancies-wrap {
+    padding: 30px 0;
+  }
+  .custom-pagination {
+    margin-top: 0;
+  }
+  .p-l-r-230 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  #map {
+    height: 500px;
+  }
+  .key-information .key-info-btn {
+    padding: 11px 11px;
+    font-size: 15px;
+  }
+  .key-information .key-info-btn span img {
+    height: 26px;
+  }
+
+}
+
+/*=====================================
+  For Medium Screen
+========================================*/
+
+@media only screen and (max-width: 1199.98px){
+
+  /* Menu CSS Start */
+  .navbar-brand img {
+    height: 30px;
+  }
+  .header-menu-left {
+    width: 82%;
+  }
+  .header-right.text-right {
+    width: 17%;
+  }
+  .theme-button-1 {
+    padding: 7px 20px;
+  }
+  .header-area ul.navbar-nav a.nav-link {
+    font-size: 13px;
+    padding: 4px 21px;
+  }
+  /* Menu CSS Start End */
+
+  /* Hero Area Start */
+  .heading-1 {
+    line-height: 91px;
+  }
+  .hero-area .heading-1, .heading-1 {
+    font-size: 62px;
+  }
+  /* Hero Area End */
+
+  /* Splitshow css */
+  .projects-right .section-title {
+    width: 100%;
+    margin-left: 34px;
+  }
+  /* Footer css */
+  .footer-upper-content {
+    padding-top: 70px;
+    padding-bottom: 100px;
+  }
+
+  /* Blog Page css */
+    .blog-items-wrap, .vacancies-wrap {
+      padding: 70px 0;
+    }
+    .blog-item {
+      padding: 28px 24px 24px;
+      margin-bottom: 30px;
+    }
+    .blog-publish-date {
+      margin-top: 10px;
+    }
+    .blog-title {
+      font-size: 20px;
+      margin: 11px 0 5px;
+      line-height: 28px;
+    }
+    .blog-item p.card-text {
+      font-size: 14px;
+    }
+
+  /* Career css */
+  .job-item .job-bottom-part .theme-button-3 {
+    padding: 6px 14px;
+    font-size: 13px;
+  }
+  .job-item .job-title {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  /* Technology we use */
+  .we-collaborate-to-make-area .section-title {
+    width: 75%;
+  }
+  .we-collaborate-to-make-area .collaborate-logos-right .vue-icon, .we-collaborate-to-make-area .collaborate-logos-left .figma-icon {
+    height: 110px;
+  }
+  .we-collaborate-to-make-area .collaborate-logos-right .html-icon {
+    height: 55px;
+  }
+  .we-collaborate-to-make-area .collaborate-logos-right .laravel-icon {
+    top: 52%;
+}
+  .we-collaborate-to-make-area .collaborate-logos-right .js-icon, .we-collaborate-to-make-area .collaborate-logos-left .react-icon {
+    height: 70px;
+  }
+  .we-collaborate-to-make-area .collaborate-logos-left .flutter-icon {
+    height: 50px;
+    z-index: 9;
+  }
+  .we-collaborate-to-make-area .main-img-wrap img.main-logo {
+    left: 40%;
+    top: 56%;
+    height: 155px;
+  }
+  .we-collaborate-to-make-area .main-img-wrap img.border3 {
+      left: 37.5%;
+      top: 52%;
+      height: 200px;
+  }
+  .we-collaborate-to-make-area .main-img-wrap img.border2 {
+    left: 32%;
+    top: 43%;
+    height: 300px;
+  }
+  .we-collaborate-to-make-area .main-img-wrap img.border1 {
+    height: 500px;
+    top: 38px;
+    left: 0%;
+  }
+  .we-collaborate-to-make-area img.dot7 {
+    top: 100px;
+    right: 0;
+    height: 10px;
+  }
+  /* About page build career  */
+  .build-your-career-area .section-title {
+    width: 80%;
+  }
+  .build-your-career-area .build-career-rightside div:last-child img {
+    margin-top: 50px;
+  }
+  .address-right h5 {
+    font-size: 24px;
+  } 
+  .address-right ul li a {
+    font-size: 16px;
+  }
+  .contact-social li a {
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+  }
+  .footer-btn.theme-button-3 {
+    padding: 12px 21px 13px 23px;
+  }
+  /* Blog details  */
+  .blog-details-content .blog-details-title-wrap {
+    flex-direction: column;
+  }
+  .blog-share.d-flex.align-items-center {
+    margin-top: 30px;
+  }
+  .key-information {
+    margin-left: 0px;
+}
+.projects-list-item .projects-box-wrap .projects-list-left-content .project-features ul li {
+  font-size: 16px;
+}
+
+.projects-list-item .projects-box-wrap .projects-list-left-content .btn-lists a {
+  padding: 11px 24px;
+  font-size: 16px;
+}
+.projects-list-item .projects-box-wrap .projects-list-left-content .project-features {
+  margin-bottom: 30px;
+}
+.projects-list-item .projects-box-wrap .projects-list-left-content .btn-lists {
+  margin-bottom: 20px;
+}
+
+  /* Product and Product Details Page Start */
+  .product-details-right-features a, .live-preview-left-box > a {
+    padding: 10px 20px;
+  }
+  .product-tab-content .blog-details-content img {
+    margin-bottom: 30px;
+  }
+  .product-tab-content .blog-share {
+    margin-top: 0!important;
+  }
+  /* Product and Product Details Page End */
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199.98px){
+
+  /* Blog Page css */
+  .blog-items-wrap, .vacancies-wrap {
+    padding: 70px 0;
+  }
+  .p-l-r-230 {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+  .team-gallery .grid__sizer, .team-gallery .grid__item {
+    width: 30.5%;
+  } 
+
+}
+
+/*======================================
+      Tablet layout
+=========================================*/
+
+@media only screen and (max-width: 992px) {
+  img.hero-element1, .hero-content-floating-element2 img, .hero-content-floating-element3 img {
+    height: 50px;
+  }
+  .hero-content-floating-element2 {
+    bottom: 20%;
+  }
+  .theme-button-3 {
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .projects-right .section-title {
+    width: 100%;
+    margin-left: 20px;
+  }
+  .heading-1 {
+    line-height: 75px;
+  }
+  .footer-upper-content p {
+    width: 69%;
+  }
+  .copyright-area p {
+    text-align: center;
+  }
+  .footer-menu.footer-menu-social {
+    justify-content: center!important;
+  }
+  ul.footer-menu {
+    margin: 15px 0;
+  }
+  .key-information {
+    padding: 32px 30px;
+}
+.project-details-title {
+  font-size: 32px;
+  line-height: 40px;
+}
+.key-information ul li {
+  font-size: 16px;
+}
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    p {
+        font-size: 16px;
+    }
+
+    /* Menu css */
+    .main-nav-left .career-nav-item {
+      display: none;
+    }
+
+    /* Blog css */
+    .blog-items-wrap, .vacancies-wrap {
+      padding: 70px 0;
+    }
+    .p-l-r-230 {
+      padding-left: 70px;
+      padding-right: 70px;
+    }
+    .team-gallery .grid__sizer, .team-gallery .grid__item {
+    width: 29.5%;
+  }
+
+
+}
+
+@media only screen and (max-width: 991.98px){
+
+    /* Menu CSS Start */
+    .header-menu-left {
+      width: 83%!important;
+    }
+    .header-right.text-right {
+      width: 19%!important;
+    }
+
+    .header-area ul.navbar-nav a.nav-link {
+      padding: 4px 14px!important;
+    }
+    .theme-button-1 {
+      padding: 7px 10px!important;
+      font-size: 14px;
+    }
+
+    /* Hero Area CSS Start */
+    .hero-area .heading-1, .heading-1 {
+      font-size: 46px;
+    }
+    .hero-area .heading-1 {
+      line-height: 67px;
+    }
+    .hero-area .heading-1 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    /* Hero Area CSS End */
+
+    /* Video Area css */
+    .video-area .popup-video {
+      width: 75px;
+      height: 75px;
+    }
+    .video-area .popup-video i {
+      font-size: 21px;
+    }
+    /* Video Area css */
+
+    /* Splitshow css */
+    .zai-splitshow-preview.-sm {
+      /* padding-bottom: 100% !important; */
+    }
+
+    /* Footer css */
+    .zai-niklab-content {
+      padding: 44px 0 0 0;
+    }
+    .we-collaborate-to-make-area .main-img-wrap img.border2 {
+      left: 28%;
+      top: 41%;
+  }
+    .we-collaborate-to-make-area .main-img-wrap img.border3 {
+      left: 35.5%;
+      top: 51%;
+    }
+    .we-collaborate-to-make-area .main-img-wrap img.main-logo {
+      left: 38.5%;
+      top: 55.5%;
+    }
+    .we-collaborate-to-make-area .main-img-wrap img.border1 {
+      top: 18px;
+    }
+    .we-collaborate-to-make-area .collaborate-logos-left .flutter-icon {
+      right: 15px;
+    }
+    .we-collaborate-to-make-area .collaborate-logos-left .xd-icon {
+      right: 70px;
+    }
+    
+  .build-career-rightside {
+    margin-top: 50px;
+  }
+  .contact-social {
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+  .job-details-page-banner-content.page-banner-content {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .job-details-location li {
+    font-size: 15px;
+    margin-right: 25px;
+}
+.page-banner-area {
+  height: 750px;
+}
+.blog-details-content .blog-details-title-wrap h3 {
+  font-size: 26px;
+}
+.key-information {
+  margin-top: 30px;
+}
+.key-information .key-info-btn {
+  display: inline-flex;
+  margin-top: 16px;
+}
+.key-information .key-info-btn span:after {
+  top: 3px;
+}
+.project-details-content {
+  margin-top: 50px;
+}
+.projects-list-item .projects-box-right-img {
+  display: none;
+}
+
+/* Update */
+.projects-list-item {
+  border-radius: 20px;
+}
+.projects-list-item .projects-box-wrap .projects-list-left-content {
+  margin: 50px 0;
+}
+.projects-list-item .projects-box-wrap {
+  /* flex-direction: column-reverse; */
+}
+.projects-list-item .projects-box-right-img {
+  /* justify-content: center;
+  position: relative; */
+}
+/* Update */
+
+  /* Product and Product Details Page Start */
+  .blog-details-content .blog-details-title-wrap h3 {
+    line-height: 36px;
+  }  
+  /* Product and Product Details Page End */
+    
+}
+
+@media only screen and (max-width: 768px) {
+
+  /*Main Menu Bar Start*/
+  .header-menu-left {
+    width: 80%;
+  }
+  .header-right.text-right {
+    width: 20%;
+  }
+  .theme-button-1 {
+    padding: 8px 13px;
+  }
+  /*Main Menu Bar End*/
+
+  /* Video Area */
+  .video-area .popup-video {
+    width: 60px;
+    height: 60px;
+  }
+  .video-area .popup-video i {
+    font-size: 14px;
+  }
+  /* Splitshow css */
+  .zai-splitshow-items {
+    flex-direction: column-reverse;
+  }
+  .we-collaborate-to-make-area .main-img-wrap img.border3 {
+    left: 35.5%;
+    top: 51%;
+  }
+  .we-collaborate-to-make-area .collaborate-logos-right .laravel-icon {
+    top: 46%;
+    right: 120%;
+    height: 42px;
+  }
+  .zai-splitshow-item {
+    margin: 28px 0;
+  }
+  .theme-button-4 {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+  .projects-item-title-img img {
+    /* height: 40px; */
+  }
+  .projects-list-item .projects-box-wrap .projects-list-left-content a.case-study-btn {
+    font-size: 14px;
+    padding: 10px 21px;
+  }
+  .zai-splitshow-col.-right.projects-right .zai-splitshow-item {
+    margin-bottom: 0;
+  }
+
+}
+
+/*=======================================
+      For Small Devices
+=========================================*/
+@media only screen and (max-width: 767.98px) {
+
+    section, .section-b-space {
+      padding-bottom: 70px!important;
+    }
+    .section-t-space {
+      padding-top: 70px!important;
+    }
+    section.section-b-130-space {
+      padding-bottom: 40px!important;
+    }
+    .section-t-130-space {
+      padding-top: 40px!important;
+    }
+    .stratigies-meet-professionals-area .section-title, .projects-right .section-title {
+      width: 100%;
+    }
+
+    /* Mobile Menu CSS Start */
+    .zai-menu-toggle {
+    top: 37px;
+    right: 127px;
+  }
+    /* Mobile Menu CSS End */
+
+    /*Menu Area CSS*/
+    nav.zai-menu {
+      display: block;
+    }
+    /* .zai-menu-nav-item a {
+      font-size: 15px;
+      font-weight: 500;
+      color: var(--text-dark);
+    } */
+    .zai-menu-nav-item a {
+      font-size: 28px;
+      font-weight: 500;
+      color: var(--text-dark);
+      line-height: 110%;
+  }
+    .zai-menu-nav-item a.active {
+      color: var(--green-color);
+    }
+    /*Menu Area CSS End*/
+
+    /* Hero Area CSS Start*/
+    .hero-title {
+      position: relative;
+      padding-top: 35px;
+    }
+    .hero-area .heading-1 {
+      padding: 0 6px;
+      line-height: 66px;
+    }
+    .hero-area .hero-shape {
+      position: absolute;
+      top: -86px;
+      left: 96px;
+    }
+    .hero-area .hero-shape-2 {
+      left: 262px;
+    }
+    /* Hero Area CSS End */
+
+    /* Splitshow css */
+    .projects-right .section-title {
+      margin-left: 0;
+    }
+    .zai-splitshow-items {
+      flex-direction: column-reverse;
+      display: flex;
+    }
+
+    /* Know us carousel */
+    .know-us-item-url {
+      margin-top: 25px;
+    }
+    /* Footer css */
+    .footer-upper-content p {
+      width: 90%;
+    }
+
+    /* Blog css */
+    .page-banner-area {
+      height: 565px;
+    }
+    .page-banner-para {
+      font-size: 16px;
+    }
+    .page-banner-title {
+      font-size: 34px;
+      line-height: 51px;
+    }
+    .page-banner-content {
+      width: 100%;
+    }
+    .page-banner-top-space {
+      align-items: center;
+    }
+    .inner-page-negative-t-m {
+      margin-top: 50px!important;
+    }
+    .blog-items-wrap, .vacancies-wrap {
+      filter: 0;
+      background-color: transparent;
+      padding: 0!important;
+      border-radius: 0;
+    }
+    .blog-items-wrap, .vacancies-wrap {
+      margin-top: 50px;
+  }
+
+  /* technology we use */
+  .we-collaborate-to-make-area .collaborate-logos-right .vue-icon, .we-collaborate-to-make-area .collaborate-logos-left .figma-icon {
+    height: 70px;
+  }
+  .we-collaborate-to-make-area .collaborate-logos-right .html-icon {
+    height: 40px;
+  }
+  .we-collaborate-to-make-area .collaborate-logos-right .js-icon, .we-collaborate-to-make-area .collaborate-logos-left .react-icon {
+    height: 42px;
+  }
+  .we-collaborate-to-make-area .collaborate-logos-left .flutter-icon {
+    height: 39px;
+  }
+  .we-collaborate-to-make-area .collaborate-logos-left .xd-icon {
+    height: 35px;
+  }
+  .we-collaborate-to-make-area .main-img-wrap img.border1 {
+    height: 408px;
+    top: 29px;
+    left: -1%;
+  }
+  .we-collaborate-to-make-area .main-img-wrap img.border2 {
+    left: 21%;
+    top: 33%;
+    height: 280px;
+  }
+  .we-collaborate-to-make-area .main-img-wrap img.border3 {
+    left: 28.5%;
+    top: 44%;
+  }
+  .we-collaborate-to-make-area .main-img-wrap img.main-logo {
+    left: 37%;
+    top: 57%;
+    height: 95px;
+  }
+  .we-collaborate-to-make-area .main-img-wrap img.border3 {
+    left: 32.5%;
+    top: 52%;
+    height: 138px;
+  }
+  .we-collaborate-to-make-area .section-title {
+    width: 95%;
+  }
+  .we-collaborate-to-make-area .collaborate-logos-left .flutter-icon {
+    right: 9px;
+  }
+  .team-gallery .grid__sizer, .team-gallery .grid__item {
+    width: 30.5%;
+  }
+  .contact-social li a {
+    height: 40px;
+    width: 40px;
+    font-size: 14px;
+  }
+  #map {
+    height: 300px;
+  }
+  .vacancies-wrap {
+    margin-top: 50px;
+  }
+  .write-comment-img img, .avatar-box img, .comment-area form .form-control {
+    height: 60px;
+  }
+  .comment-area .comment-item .comment-content {
+    padding: 20px;
+    width: 100%;
+  }
+  .comment-area .comment-item h5 {
+    font-size: 18px;
+}
+  .comment-area .comment-item p {
+    font-size: 14px;
+    line-height: 28px;
+  }
+  .comment-area .reply, .comment-area .comment-item .comment-time, .blog-details-content p {
+    font-size: 14px;
+  }
+  .comment-area .reply svg {
+    height: 14px;
+  }
+  .blog-pagination-wrap .next-prev-btn button {
+    height: 35px;
+    width: 35px;
+  }
+  .blog-pagination-wrap .next-prev-btn button svg {
+    height: 14px;
+  }
+  .blog-pagination-wrap .previous-btn button {
+    margin-right: 20px;
+  }
+  .blog-pagination-wrap .next-btn button {
+    margin-left: 20px;
+  }
+  .blog-pagination-wrap .next-prev-btn .blog-pagination-title p {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .blog-pagination-wrap .next-prev-btn .blog-pagination-title h5 {
+    font-size: 15px;
+    line-height: 18px;
+  }
+  .job-details-wrap.inner-page-negative-t-m {
+    padding-top: 0;
+  }
+  .comment-area form .post-cmt-input-wrap button {
+    right: 8px;
+    top: 8px;
+    min-height: 44px;
+  }
+
+  /* Product and Product Details Page Start */
+  .comment-area form .form-control {
+    width: 78%;
+  }
+  .comment-area form .post-cmt-input-wrap button {
+    min-width: 45px;
+}
+/* Product and Product Details Page End*/
+
+}
+
+/*========================================
+          For large mobile
+=========================================*/
+
+@media only screen and (max-width: 766.98px){
+
+  .team-gallery .grid__sizer, .team-gallery .grid__item {
+    width: 47.5%;
+    }
+    .grid {
+      margin-left: 4px;
+    }
+
+}
+@media only screen and (min-width: 480px) and (max-width: 766.98px){
+    .play-button {
+        top: 34%;
+        left: 43%;
+    }
+}
+
+@media only screen and (max-width:575.98px){
+  .heading-2 {
+    font-size: 31px;
+    line-height: 42px;
+  }
+  .hero-content .theme-button-3 {
+    width: 225px;
+    margin: 0 auto;
+  }
+  .zai-menu-toggle {
+    right: 14px;
+  }
+
+  /* Video  */
+  .video-area .video-poster img {
+    border-radius: 22px;
+  }
+
+  /* we use technology */
+  .we-collaborate-to-make-area .collaborate-logos-left .xd-icon {
+    right: 55px;
+  }
+  .we-collaborate-to-make-area .collaborate-logos-left .flutter-icon {
+    right: 25px;
+  }
+  .we-collaborate-to-make-area img.dot7 {
+    right: -40%;
+    height: 13px;
+  } 
+  .we-collaborate-to-make-area .collaborate-logos-left .figma-icon {
+    right: -16px;
+  }
+  .team-gallery .grid__sizer img, .team-gallery .grid__item img {
+    width: 100%;
+  }
+  .grid {
+    margin-left: 0;
+  }
+  .address-right h5 {
+    font-size: 21px;
+  }
+  .address-right ul li a {
+    font-size: 14px;
+  }
+  .address-box-icon {
+    font-size: 14px;
+    height: 45px;
+    width: 45px;
+  }
+  .address-right ul {
+    margin-top: 7px;
+  }
+  .job-details-wrap .job-details-box p {
+    margin-bottom: 30px;
+  }
+  .job-details-wrap .job-details-box h4 { 
+    margin-bottom: 20px;
+  }
+  .job-details-wrap .job-details-box .job-details-box-points li {
+    font-size: 15px;
+  }
+  .job-details-wrap .job-details-box .job-details-box-points li {
+    line-height: 25px;
+  }
+  .job-details-wrap .job-details-box .job-details-box-points li::before {
+    height: 7px;
+    width: 7px;
+    top: 7px;
+  }
+
+  .projects-list-item {
+    margin-bottom: 50px;
+  }
+  .dot-elements-wrap.dot-elements-right img, .dot-elements-wrap.dot-elements-left img {
+    z-index: -1;
+  }
+
+  /* Update */
+  .section-title, .projects-right .section-title, .stratigies-box, .stratigies-meet-professionals-area .section-title, .projects-right .section-title, .project-details-title,
+  .build-career-leftside {
+    text-align: center;
+  }
+  .know-us-more-area .owl-nav {
+    right: 0;
+    top: auto;
+    left: 0;
+  }
+  .know-us-item-url {
+    justify-content: center;
+  }
+  .projects-list-item {
+    padding: 0 20px;
+  }
+  .projects-list-item .projects-box-right-img {
+    margin-top: 20px;
+  }
+  .projects-list-item .projects-box-right-img img {
+      height: 280px;
+  }
+  .project-details-img-wrap img, .about-page-area .project-details-img-wrap img, .build-your-career-area .build-career-rightside img, .zai-splitshow-preview {
+    border-radius: 12px;
+  }
+  .build-your-career-area .section-title {
+    width: 100%;
+  }
+  .zai-splitshow-col.-right {
+    margin: 0 0 0 0 !important;
+}
+/* Update */
+
+/* Product and Product Details Page Start */
+.comment-area form .form-control {
+  width: 79%;
+}
+/* Product and Product Details Page End*/
+
+}
+@media only screen and (max-width:520px){ 
+
+  /* Product and Product Details Page Start */
+  .comment-area form .form-control {
+    width: 76%;
+  }
+  /* Product and Product Details Page End*/
+}
+
+@media only screen and (max-width:580px){ 
+  .team-gallery .grid__sizer, .team-gallery .grid__item {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width:480px){
+  .heading-2 {
+    font-size: 29px;
+    line-height: 31px;
+}
+
+  .hero-area .hero-shape {
+    left: 60px;
+  }
+  
+  .hero-area .hero-shape-2 {
+    left: 229px;
+  }
+  .blog-pagination-title {
+    display: none;
+  }
+  .projects-list-item .projects-box-wrap .projects-list-left-content .btn-lists a {
+    padding: 11px 20px;
+    font-size: 14px;
+    margin: 10px 10px 10px 0;
+  }
+  .projects-list-item .projects-box-wrap .projects-list-left-content .project-features {
+    flex-direction: column;
+  }
+  .we-collaborate-to-make-area .collaborate-logos-right .laravel-icon {
+    height: 30px;
+    right: 102%;
+}
+/* Update */
+.projects-right .section-title .heading-2 {
+  margin: 31px 0 43px;
+}
+/* Update */
+
+  /* Product and Product Details Page Start */
+  .comment-area form .form-control {
+    width: 80%;
+  }
+  /* Product and Product Details Page End*/
+
+}
+
+/*=========================================
+      For very little mobile
+=========================================*/
+
+@media only screen and (max-width:380px){
+  .video-area {
+    margin-top: -118px;
+}
+}
+@media only screen and (max-width:350px){
+  .hero-area .hero-shape, .hero-rotation-bg {
+    height: 106px;
+    width: 106px;
+  }
+  .hero-area .hero-shape {
+    left: 7%!important;
+  }
+  .hero-area .hero-shape-2 {
+    left: 50%!important;
+  }
+  .we-collaborate-to-make-area .main-img-wrap img.main-logo {
+    left: 37%!important;
+  }
+  .we-collaborate-to-make-area .main-img-wrap img.border3 {
+    left: 31%!important;
+  }
+  .we-collaborate-to-make-area .main-img-wrap img.border2 {
+    left: 23%!important;
+  }
+  .page-banner-top-space {
+    padding-top: 0;
+  }
+  .comment-area form .post-cmt-input-wrap button {
+    min-width: 50px;
+  }
+  .comment-area form .form-control {
+    font-size: 12px;
+  }
+
+  /* Product and Product Details Page Start*/
+  .comment-area form .form-control {
+    width: 78%;
+}
+  /* Product and Product Details Page End*/
+
+}
+
+@media only screen and (min-width:300px){
+.zai-splitshow-container {
+    padding: 0 30px;
+  }
+}
+@media only screen and (min-width:300px) and (max-width:479px){
+  /*Header Area*/
+    .theme-button {
+        font-size: 13px;
+    }
+
+    /* Hero Area CSS */
+    .hero-content .theme-button-3 {
+      padding: 12px 16px 12px 16px;
+      width: 188px;
+    }
+    .hero-area .hero-shape {
+      left: 11%;
+    }
+    .hero-area .hero-shape-2 {
+      left: 50%;
+    }
+    .hero-title {
+      flex-direction: column;
+    }
+    .heading-1 {
+      font-size: 41px;
+    }
+    .hero-area .heading-1 {
+      font-size: 41px;
+      line-height: 63px;
+      letter-spacing: 0;
+    }
+    img.hero-element1{
+      position: absolute;
+      right: 0;
+    }
+    img.hero-element1, .hero-content-floating-element2 img, .hero-content-floating-element3 img {
+      height: 36px;
+    }
+    /* Hero Area CSS */
+
+    /* Footer css */
+    .heading-1 {
+      line-height: 67px;
+    }
+    .footer-upper-content p {
+      width: 100%;
+    }
+    .copyright-area ul li a {
+      padding: 0 6px;
+      font-size: 14px;
+    }
+    /* technology we use */
+    .we-collaborate-to-make-area .main-img-wrap img.border1 {
+    height: 300px;
+  }
+  .we-collaborate-to-make-area .collaborate-logos-right .vue-icon, .we-collaborate-to-make-area .collaborate-logos-left .figma-icon {
+    height: 40px;
+  }
+  .we-collaborate-to-make-area .collaborate-logos-right .js-icon, .we-collaborate-to-make-area .collaborate-logos-left .react-icon {
+    height: 26px;
+  }
+  .we-collaborate-to-make-area .collaborate-logos-right .html-icon {
+    height: 35px;
+    right: 60%;
+    top: 40%;
+  }
+  .we-collaborate-to-make-area img.dot6 {
+    top: 0;
+    height: 10px;
+  }
+  .we-collaborate-to-make-area .main-img-wrap img.main-logo {
+    height: 84px;
+    left: 39%;
+  }
+  .we-collaborate-to-make-area .main-img-wrap img.border3 {
+    left: 34%;
+    top: 50%;
+    height: 128px;
+  }
+  .we-collaborate-to-make-area .main-img-wrap img.border2 {
+    left: 30%;
+    top: 43%;
+    height: 171px;
+  }
+  .we-collaborate-to-make-area .collaborate-logos-left .flutter-icon {
+    top: 14%;
+    height: 32px;
+    right: -6px;
+  }
+  .we-collaborate-to-make-area .collaborate-logos-left .xd-icon {
+    top: 36%;
+  }
+  .we-collaborate-to-make-area .collaborate-logos-left .react-icon {
+    right: -12px;
+    top: -1%;
+  }
+  .we-collaborate-to-make-area .section-title {
+    width: 100%;
+  }
+  .footer-upper-content p {
+    font-size: 18px;
+    margin: 0px auto 25px;
+    line-height: 37px;
+    padding: 10px 0;
+  }
+  .job-details-location {
+    flex-direction: column;
+  }
+  .key-information .key-info-btn {
+    padding: 11px 9px;
+    font-size: 13px;
+  }
+  .key-information .key-info-btn span img {
+    height: 25px;
+  }
+  .key-information .key-info-btn span {
+    margin-right: 27px;
+  }
+
+  /* Product and Product Details Page Start */
+  .live-preview-left-box {
+    flex-direction: column;
+    align-items: flex-start!important;
+    }
+    .live-preview-left-box .blog-share{
+      margin-top: 20px!important;
+    }
+  /* Product and Product Details Page End */
+
+}
+/*-------------------------------------------
+      22. Responsive Design End
+-------------------------------------------*/

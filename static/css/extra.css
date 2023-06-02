@@ -1,0 +1,71 @@
+
+/* Team Area CSS */
+.team-member-hover-img {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.member-box img {
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.member-box:hover .team-member-hover-img {
+    opacity: 1;
+    visibility: visible;
+}
+.member-box:hover .team-member-default-img {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.meet-the-minds-area .member-box .member-content h5 {
+    margin: 8px 0 5px 0;
+}
+/* Page Banner CSS */
+.page-banner-content {
+    width: 65%;
+}
+.meet-the-minds-area .member-box .member-content p {
+    font-size: 14px;
+    font-weight: 300;
+}
+.meet-the-minds-area .member-box .member-content h5 {
+    font-size: 17px;
+}
+
+.job-details-wrap .job-details-box p {
+    font-size: 14px;
+}
+
+.job-details-wrap .job-details-box .job-details-box-points li {
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+.blog-details-title-max-width {
+    max-width: 85%;
+}
+@media only screen and (max-width: 480px) {
+    .page-banner-area {
+        height: 590px;
+    }
+}
+@media only screen and (max-width: 425px) {
+    .page-banner-area {
+        height: 620px;
+    }
+}
+@media only screen and (max-width: 425px) {
+    .page-banner-area {
+        height: 650px;
+    }
+}
+@media only screen and (max-width: 370px) {
+    .page-banner-area {
+        height: 690px;
+    }
+}
