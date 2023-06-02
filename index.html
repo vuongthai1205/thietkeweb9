@@ -546,9 +546,9 @@ Tokenomics: 5,000,000,000<br> tokens 100% ADD LP   <br>Buy Tax 0%  sell 0%
                     </div>
                     <div class="col-lg-6 col-sm-12">
                         <ul class="footer-menu d-flex justify-content-center">
-                            <li><a href="#" target="_self" >Home</a></li>
-                            <li><a href="#Roadmap"target="_self">Roadmap</a></li>
-                            <li><a href="#Partner"target="_self">Partner</a></li>
+                            <li><a id="item-menu-footer1" href="#" target="_self" >Home</a></li>
+                            <li><a id="item-menu-footer2" href="#Roadmap"target="_self">Roadmap</a></li>
+                            <li><a id="item-menu-footer3" href="#Partner"target="_self">Partner</a></li>
                             <li><a href="https://t.me/chinaladyportal"  target="_blank">Telegram</a></li>
                             <li><a href="https://twitter.com/ChinaLadyERC"  target="_blank">Twitter</a></li>
                             <li><a href="#"  target="_blank">Whitepaper</a></li>
@@ -589,6 +589,13 @@ Tokenomics: 5,000,000,000<br> tokens 100% ADD LP   <br>Buy Tax 0%  sell 0%
 <script type="application/ld+json">
  
   </script>
+<script>
+    // Lắng nghe sự kiện click trên mục trong menu footer
+    $('#item-menu-footer2').click(function() {
+  $('html, body').animate({ scrollTop: $('#Roadmap').offset().top }, 'slow');
+});
+
+</script>
 </body>
 
 <!-- Mirrored from www.chinalady.asia/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 02 Jun 2023 05:55:21 GMT -->
